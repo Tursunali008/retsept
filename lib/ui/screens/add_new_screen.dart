@@ -24,7 +24,6 @@ class _AddNewScreenState extends State<AddNewScreen> {
         },
       );
 
-      // Navigate to the Ingredients page when moving to step 2
       if (_currentStep == 1) {
         Navigator.push(
           context,
